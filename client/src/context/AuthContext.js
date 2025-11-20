@@ -3,8 +3,8 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-// Hardcoded API URL to fix the undefined issue
-const API_URL = 'http://localhost:5000';
+
+const API_URL = process.env.REACT_APP_API_URL || 'https://dishifree-1.onrender.com';
 
 export const useAuth = () => {
   const context = useContext(AuthContext);
