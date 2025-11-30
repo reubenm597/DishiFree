@@ -115,41 +115,41 @@ bcryptjs - Password hashing
 Deployment
 MongoDB Atlas - Cloud database
 
-Render/Heroku - Backend hosting
+Render - Backend hosting
 
-Netlify/Vercel - Frontend hosting
+Render - Frontend hosting
 
 
 
 📁 Project Structure
 
 
-<details>
-<summary>Click to expand the project tree</summary>
+
   
+## 📁 Project Structure
+
+```
 dishifree/
 ├── client/                 # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/     # Reusable components
-│   │   │   ├── auth/       # Authentication components
-│   │   │   ├── common/     # Shared components
-│   │   │   ├── donor/      # Donor-specific components
-│   │   │   └── receiver/   # Receiver-specific components
-│   │   ├── context/        # React context providers
-│   │   ├── pages/          # Page components
-│   │   └── styles/         # CSS stylesheets
-│   └── package.json
-├── server/                 # Express backend
-│   ├── config/             # Database configuration
-│   ├── controllers/        # Route controllers
-│   ├── middleware/         # Custom middleware
-│   ├── models/             # MongoDB models
-│   ├── routes/             # API routes
-│   └── server.js          # Entry point
-└── README.md
-
-</details>
+│   ├── public/            # Static assets
+│   └── src/
+│       ├── components/     # Reusable components
+│       │   ├── auth/       # Authentication components
+│       │   ├── common/     # Shared components (Button, Modal, etc.)
+│       │   ├── donor/      # Donor-specific components
+│       │   └── receiver/   # Receiver-specific components
+│       ├── context/        # React context providers
+│       ├── pages/          # Page components
+│       ├── styles/         # CSS stylesheets
+│       └── package.json
+└── server/                 # Express backend
+    ├── config/             # Database configuration
+    ├── controllers/        # Route controllers
+    ├── middleware/         # Custom middleware
+    ├── models/             # MongoDB models
+    ├── routes/             # API routes
+    └── server.js          # Entry point
+```
 
 
 🔐 API Endpoints
@@ -232,6 +232,7 @@ Made with ❤️ to fight food waste and feed communities
 
 Join us in creating a world where no good food goes to waste
 </div>
+
 
 
 
