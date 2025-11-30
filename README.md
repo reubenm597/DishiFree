@@ -124,7 +124,9 @@ Netlify/Vercel - Frontend hosting
 📁 Project Structure
 
 
-'''
+<details>
+<summary>Click to expand the project tree</summary>
+  
 dishifree/
 ├── client/                 # React frontend
 │   ├── public/
@@ -147,7 +149,7 @@ dishifree/
 │   └── server.js          # Entry point
 └── README.md
 
-</div>
+</details>
 
 
 🔐 API Endpoints
@@ -230,6 +232,7 @@ Made with ❤️ to fight food waste and feed communities
 
 Join us in creating a world where no good food goes to waste
 </div>
+
 
 
 
