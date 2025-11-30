@@ -49,7 +49,7 @@ Installation
 Clone the repository
 
 bash
-git clone https://github.com/yourusername/dishifree.git
+git clone https://github.com/reubenm597/DishiFree.git
 cd dishifree
 Backend Setup
 
@@ -121,10 +121,8 @@ Netlify/Vercel - Frontend hosting
 
 
 
-
-
 📁 Project Structure
-text
+
 dishifree/
 ├── client/                 # React frontend
 │   ├── public/
@@ -146,8 +144,6 @@ dishifree/
 │   ├── routes/             # API routes
 │   └── server.js          # Entry point
 └── README.md
-
-
 
 
 
@@ -232,3 +228,4 @@ Made with ❤️ to fight food waste and feed communities
 
 Join us in creating a world where no good food goes to waste
 </div>
+
